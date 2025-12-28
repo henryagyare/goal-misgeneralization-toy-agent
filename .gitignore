@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Envs / notebooks
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Outputs / artifacts
+dynamics_model.pt
+dynamics_dataset.pt
+*.log
+
+# (Optional) If you generate lots of runs
+runs/
+outputs/
